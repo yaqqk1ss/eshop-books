@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kontakt | Listovna</title>
+    <meta name="description"
+        content="Kontakty na internetový knihkupec Listovna: adresa, otevírací doba, mapa a kontaktní formulář.">
+    <link rel="icon" href="images/logo.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="wrap">
+            <a class="brand" href="https://yarmolma25.llmp.spse-net.cz/eshop/index.html">
+                <img src="images/logo.svg" width="40" height="40" alt="">
+                <span>Listovna</span>
+            </a>
+            <nav class="main-nav" aria-label="Hlavní navigace">
+                <ul>
+                    <li><a href="https://yarmolma25.llmp.spse-net.cz/eshop/index.html">Domů</a></li>
+                    <li><a href="https://yarmolma25.llmp.spse-net.cz/eshop/detail.html" aria-current="page">Detail
+                            knihy</a></li>
+                    <li><a href="https://yarmolma25.llmp.spse-net.cz/eshop/kontakt.html">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="obsah">
+        <header class="page-title wrap">
+            <hgroup>
+                <h1>Kontakty</h1>
+                <p>Ozvěte se nám, rádi poradíme s výběrem knihy</p>
+            </hgroup>
+        </header>
+
+        <div class="wrap contact-grid">
+            <section class="panel" aria-labelledby="o-nas">
+                <h2 id="o-nas">O Listovně</h2>
+                <p>Listovna je malý internetový knihkupec, který vznikl v roce <time datetime="2024">2024</time> v
+                    Ostravě. Vybíráme knihy, které jsme sami přečetli, a balíme je s péčí.</p>
+                <address>
+                    <strong>Listovna s.r.o.</strong><br>
+                    Masarykovo náměstí 1<br>
+                    000 00 Pardubice<br>
+                    IČO: 12345678<br>
+                    Tel.: <a href="tel:+420555000111">+420 123 456 789</a><br>
+                    E-mail: <a href="mailto:yarmolma25@zaci.spse.cz">yarmolma25@zaci.spse.cz</a>
+                </address>
+            </section>
+
+            <section class="panel" aria-labelledby="hodiny">
+                <h2 id="hodiny">Otevírací doba</h2>
+                <table class="hours">
+                    <tbody>
+                        <tr>
+                            <th scope="row">Pondělí – pátek</th>
+                            <td><time datetime="09:00">9:00</time> – <time datetime="17:00">17:00</time></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Sobota</th>
+                            <td><time datetime="10:00">10:00</time> – <time datetime="13:00">13:00</time></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Neděle</th>
+                            <td>zavřeno</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </div>
+
+        <section class="section wrap" aria-labelledby="mapa">
+            <h2 id="mapa">Kde nás najdete</h2>
+            <iframe width="425" height="350"
+                src="https://www.openstreetmap.org/export/embed?bbox=15.776313543319704%2C50.03599434579495%2C15.781334638595583%2C50.038478558527515&amp;layer=mapnik"
+                style="border: 1px solid black"></iframe>
+        </section>
+
+        <section class="section wrap" aria-labelledby="formular">
+            <div class="panel">
+                <h2 id="formular">Napište nám</h2>
+                <form action="#" method="post">
+                    <label>Jméno
+                        <input type="text" name="jmeno" autocomplete="name" required>
+                    </label>
+                    <label>E-mail
+                        <input type="email" name="email" autocomplete="email" required>
+                    </label>
+                    <label>Zpráva
+                        <textarea name="zprava" rows="5" required></textarea>
+                    </label>
+                    <p><button class="btn" type="submit">Odeslat zprávu</button></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="wrap">
+            <div class="footer-grid">
+                <section aria-labelledby="f-autor">
+                    <h2 id="f-autor">Listovna</h2>
+                    <address>
+                        Autor webu: Yarmolenko Maksym<br>
+                        IČO: 12345678<br>
+                        <a href="mailto:yarmolma25@zaci.spse.cz">yarmolma25@zaci.spse.cz</a>
+                    </address>
+                </section>
+                <nav aria-labelledby="f-mapa">
+                    <h2 id="f-mapa">Mapa stránek</h2>
+                    <ul>
+                        <li><a href="https://yarmolma25.llmp.spse-net.cz/eshop/index.html">Domů</a></li>
+                        <li><a href="https://yarmolma25.llmp.spse-net.cz/eshop/detail.html">Detail knihy</a></li>
+                        <li><a href="https://yarmolma25.llmp.spse-net.cz/eshop/kontakt.html">Kontakt</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <p class="copyright"><small>© <time datetime="2026">2026</time> Listovna.</small></p>
+        </div>
+    </footer>
+</body>
+
+</html>
